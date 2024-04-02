@@ -58,9 +58,9 @@ Run
 ```bash
 python order_counting.py
 ```
-you will find out. If you don't mind, share your evaluation with us all:)
+you will find out. If you don't mind, share your evaluation results with us all:)
 
-## license
+## License
 
 ShampooSalesAgent is licensed under the MIT License found in the [LICENSE](LICENSE) file in the root directory of this repository.
 
@@ -70,7 +70,7 @@ If this work is helpful, please kindly cite as:
 
 ```bibtex
 @article{ShampooSalesAgent,
-  title={ShampooSalesAgent: a minimal LLM sales agent framework for sales agent deployment and benchmarking}, 
+  title={ShampooSalesAgent: a minimal LLM sales agent framework for sales agent deployment and benchmark}, 
   author={Yannan Luo},
   year={2024},
   url={http://arxiv.org/abs/2403.13372](https://github.com/gogogo22/ShampooSalesAgent}
