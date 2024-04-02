@@ -20,7 +20,7 @@ def print_orders_to_csv(order, csvfile ='customer_orders.csv'):
 
     order_time = order[: order.index("<")]
 
-    fieldnames = ["订单时间(order time)", "客户姓名(customer name)", "地址(address)", "联系方式(phone number)", "购买数量(purchase quantity)", "付款总额(total cost of purchase)"]
+    fieldnames = ["订单时间(order time)", "客户姓名(customer name)", "地址(address)", "联系方式(phone number)", "购买数量(purchase quantity)", "付款总额(payment amounts)"]
     orders = [
         {
             "订单时间(order time)": order_time,
@@ -28,7 +28,7 @@ def print_orders_to_csv(order, csvfile ='customer_orders.csv'):
             "地址(address)": matches[1],
             "联系方式(phone number)": matches[2],
             "购买数量(purchase quantity)": matches[3],
-            "付款总额(total cost of purchase)": matches[4],
+            "付款总额(payment amounts)": matches[4],
         }
     ]
 
