@@ -3,6 +3,11 @@
 </p>
 
 # ShampooSalesAgent: A minimal LLM Sales Agent Framework for Sales Agent Deployment and Benchmark 
+[![license][license-image]][license-url]
+
+[license-image]: http://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://github.com/gogogo22/ShampooSalesAgent/blob/master/LICENSE
+
 A LLM-powered minimal agent that sells Shampoo (or any product with just a product information) for a living. Fluent conversation with customers on Web and will record their orders in a .csv file. 
 ## Quick Start
 ```bash
