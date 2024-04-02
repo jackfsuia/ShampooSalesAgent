@@ -17,7 +17,7 @@
 
 1. **克隆项目**：通过命令行执行：
    ```
-   git clone https://github.com/gogogo22/ShampooSalesAgent
+   git clone https://github.com/gogogo22/ShampooSalesAgent.git
    ```
 
 2. **运行程序**：使用您选择的模型名称和API密钥启动代理：
