@@ -2,7 +2,7 @@
     <img src="image/goodsell.png" width="75%" >
 </p>
 
-# ShampooSalesAgent: A minimal LLM Sales Agent Framework for Customized Sales Agent Deployment and Benchmark 
+# ShampooSalesAgent: A minimal LLM Sales Agent Framework for Fast Sales Agent Deployment and Benchmark 
 [![license][license-image]][license-url]
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
