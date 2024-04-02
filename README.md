@@ -51,3 +51,27 @@ and [customer_orders.csv](customer_orders.csv). Open this .csv file, you'll see 
 2024-04-02 13:52:01.748677,Jack Oliver,"490 2nd St, Suite 300, New York",212555-1212,2 bottles,30 USD
 ```
 has been added.
+
+## Model Evaluation—Who is the Sales Champion?
+
+Run 
+```bash
+python order_counting.py
+```
+you will find out.
+
+## Citation
+
+If this work is helpful, please kindly cite as:
+
+```bibtex
+@article{ShampooSalesAgent,
+  title={ShampooSalesAgent: a minimal LLM sales agent framework for sales agent deployment and benchmarking}, 
+  author={Yannan Luo},
+  year={2024},
+  url={http://arxiv.org/abs/2403.13372](https://github.com/gogogo22/ShampooSalesAgent}
+}
+```
+## Acknowledgement
+
+This repo benefits from [gradio](https://github.com/gradio-app/gradio). Thanks for their wonderful works.
