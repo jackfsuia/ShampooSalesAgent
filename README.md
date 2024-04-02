@@ -60,6 +60,10 @@ python order_counting.py
 ```
 you will find out. If you don't mind, share your evaluation with us all:)
 
+## license
+
+ShampooSalesAgent is licensed under the MIT License found in the [LICENSE](LICENSE) file in the root directory of this repository.
+
 ## Citation
 
 If this work is helpful, please kindly cite as:
