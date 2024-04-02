@@ -20,7 +20,7 @@
    git clone https://github.com/gogogo22/ShampooSalesAgent.git
    ```
 
-2. **运行程序**：使用您选择的模型名称和API密钥启动代理：
+2. **运行程序**：使用您选择的模型名称和API密钥启动Agent：
    ```
    python start.py 模型名 API密钥
    ```
