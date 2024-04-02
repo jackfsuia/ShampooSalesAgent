@@ -36,7 +36,7 @@ python start.py gpt sdjkSOIjkdejs
 then the ouput will be something like this
 ```
 path\ShampooSalesAgent>python start.py gpt sdjkSOIjkdejs
-please go to one of the following  links to chat, and the second link can be shared. If the link crash during chat, please keep clicking the Retry button located at the bottom of the chat page. if 
+please go to one of the following  links to chat, and the second link can be shared public. If the link crash during chat, please keep clicking the Retry button located at the bottom of the chat page. if 
 you need it to speak English, you can just say 'speak english' to it.(请点击以下任一网址进入聊天，第二个网址可以分享给其他人。聊天的时候崩溃请点聊天框下面的Retry按钮)
 Running on local URL:  http://127.0.0.1:7860
 Running on public URL: https://8fefa6c18e039476175.gradio.live
