@@ -2,7 +2,7 @@
     <img src="image/goodsell.png" width="75%" >
 </p>
 
-# ShampooSalesAgent: A minimal LLM Sales Agent Framework for Fast Sales Agent Deployment and Benchmark 
+# ShampooSalesAgent: A minimal LLM Sales Agent Framework for Sales Agent Fast Deployment and Benchmark 
 [![license][license-image]][license-url]
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
@@ -80,7 +80,7 @@ If this work is helpful, please kindly cite as:
 
 ```bibtex
 @article{ShampooSalesAgent,
-  title={ShampooSalesAgent: a minimal LLM sales agent framework for sales agent deployment and benchmark}, 
+  title={ShampooSalesAgent: A minimal LLM Sales Agent Framework for Sales Agent Fast Deployment and Benchmark}, 
   author={Yannan Luo},
   year={2024},
   url={https://github.com/gogogo22/ShampooSalesAgent}
