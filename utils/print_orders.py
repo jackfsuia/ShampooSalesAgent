@@ -34,7 +34,7 @@ def print_orders_to_csv(order, csvfile ='customer_orders.csv'):
 
     with open(csvfile, "a", newline="", encoding="utf-8") as file:
         writer = csv.DictWriter(file, fieldnames=fieldnames)
-        if os.stat(csvfile).st_size == 0:
+        if os.stat(csvfile).st_size < 10:
             writer.writeheader()
         for order in orders:
             writer.writerow(order)
