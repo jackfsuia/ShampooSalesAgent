@@ -13,7 +13,7 @@ A LLM-powered minimal agent that sells Shampoo (or any product provided a produc
 ## Quick Start
 Run
 ```bash
-git clone https://github.com/gogogo22/ShampooSalesAgent
+git clone https://github.com/gogogo22/ShampooSalesAgent.git
 ```
 then run
 ```bash
