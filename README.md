@@ -82,7 +82,7 @@ If this work is helpful, please kindly cite as:
   title={ShampooSalesAgent: a minimal LLM sales agent framework for sales agent deployment and benchmark}, 
   author={Yannan Luo},
   year={2024},
-  url={http://arxiv.org/abs/2403.13372](https://github.com/gogogo22/ShampooSalesAgent}
+  url={here](https://github.com/gogogo22/ShampooSalesAgent}
 }
 ```
 ## Acknowledgement
