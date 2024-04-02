@@ -43,7 +43,7 @@ Both links work. Only the second link can be shared. Click the link, you'll see 
 the order infomation will be printed out to the CLI
 ```
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
-2024-04-02 13:52:01.748677 <Jack Oliver><490 2nd St, Suite 300, New York><212555-1212><2 bottles><30 USD>
+**2024-04-02 13:52:01.748677 <Jack Oliver><490 2nd St, Suite 300, New York><212555-1212><2 bottles><30 USD>**
 Customer order information has been written to customer_orders.csv
 ```
 and [customer_orders.csv](customer_orders.csv). Open this .csv file, you'll see the order information line
