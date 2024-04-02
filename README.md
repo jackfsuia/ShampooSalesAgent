@@ -68,7 +68,7 @@ Run
 ```bash
 python order_counting.py
 ```
-you will find out. If you don't mind, you can share your evaluation results with us all:)
+you will find out. By the way, if you don't mind, you can share your interesting results on this benchmark with us all :)
 
 ## License
 
