@@ -34,7 +34,6 @@ class local_salesAgent(salesAgent):
             ).to(self.device)
         streamer = TextIteratorStreamer(self.tok, skip_prompt=True, skip_special_tokens=True)
 
-        # Run the generation in a separate thread, so that we can fetch the generated text in a non-blocking way.
         generation_kwargs = {'input_ids': input_ids, "streamer":streamer, "max_new_tokens":500}
         thread = Thread(target=self.model.generate, kwargs=generation_kwargs)
         thread.start()
