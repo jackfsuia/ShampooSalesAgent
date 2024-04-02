@@ -34,7 +34,9 @@ Running on public URL: https://8fefa6c18e039476175.gradio.live
 
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 ```
+
 Both links work. Only the second link can be shared. Click the link, you'll see the web, and have a chat
+
 <img src="image/e1.PNG">
 <img src="image/e2.PNG">
 
@@ -44,7 +46,7 @@ This share link expires in 72 hours. For free permanent hosting and GPU upgrades
 2024-04-02 13:52:01.748677 <Jack Oliver><490 2nd St, Suite 300, New York><212555-1212><2 bottles><30 USD>
 Customer order information has been written to customer_orders.csv
 ```
-and [customer_orders.csv](customer_orders.csv). Open this .csv file, you'll see this order information line
+and [customer_orders.csv](customer_orders.csv). Open this .csv file, you'll see the order information line
 ```
 2024-04-02 13:52:01.748677,Jack Oliver,"490 2nd St, Suite 300, New York",212555-1212,2 bottles,30 USD
 ```
