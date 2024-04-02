@@ -66,11 +66,13 @@ Running on public URL: https://8fefa6c18e039476175.gradio.live
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 ```
 
+
 两个链接都能用，但只有第二个链接可以发给其他人访问，点击后打开网页与Agent进行对话如下（商品和地址信息纯属虚构用来测试模型计算和对话能力）：
 <img src="image/e1zh.PNG">
 <img src="image/e2zh.PNG">
 
 订单信息将在命令行界面（CLI）实时打印如下
+
 ```
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 2024-04-02 22:39:04.497217 <李明><北京市海淀区西土城路18栋><181988282><5瓶><450元>
