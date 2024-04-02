@@ -8,6 +8,7 @@
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://github.com/gogogo22/ShampooSalesAgent/blob/master/LICENSE
+[English](README.md) | 简体中文
 
 一个大模型驱动的小型销售Agent，专门售卖洗发水（或根据你提供的产品信息卖任意商品），能与网络上的顾客进行流畅交谈，并将他们的下的单记录在一个[表格](customer_orders.csv)中。
 
