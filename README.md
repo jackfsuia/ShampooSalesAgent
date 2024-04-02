@@ -1,6 +1,7 @@
 <p align="center">
     <img src="image/sellingcall.png">
 </p>
+
 # ShampooSalesAgent
 A LLM-powered minimal agent that sells Shampoo (or any product with just a product information) for a living. Fluent conversation with customers on Web and will record their orders in a .csv file. 
 ## Quick Start
