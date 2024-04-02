@@ -48,7 +48,7 @@
 python start.py Baichuan2-Turbo sdjkSOIjkdejs
 ```
 
-或直接写为([部分模型有缩写](#模型简称对照表)):
+或直接写为([部分模型有简称](#模型简称对照表)):
 
 ```
 python start.py baichuan sdjkSOIjkdejs
