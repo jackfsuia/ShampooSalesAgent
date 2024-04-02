@@ -27,7 +27,7 @@
 大功告成!
 
    其中：
-   - **模型名**：支持[gpt3.5/4](https://platform.openai.com/docs/models/overview)、[百川](https://platform.baichuan-ai.com/console/apikey)、 [通义千问](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key)、[月之暗面](https://platform.moonshot.cn/console/api-keys)、任何[Huggingface模型](https://huggingface.co/welcome)及本地微调模型。
+   - **模型名**：支持[gpt3.5/4](https://platform.openai.com/docs/models/overview)、[百川](https://platform.baichuan-ai.com/console/apikey)、 [通义千问](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key)、[月之暗面](https://platform.moonshot.cn/console/api-keys)、任何[Huggingface模型](https://huggingface.co/welcome)及本地微调模型（这种情况不需要API密钥）。
    - **API密钥**：非Huggingface模型需提供，可通过点击上面的相应的模型字体链接申请一个。其中
      - 百川、通义千问的部分模型免费；
      - 月之暗面提供免费每分钟3次请求；
