@@ -39,7 +39,7 @@
      - 月之暗面提供免费每分钟3次请求；
      - gpt3.5/4 付费；
      - Huggingface模型免费，可直接使用Huggingface库中的模型或本地微调后的模型（请确保模型路径不出错）
-     - 
+     
 *windows 10 上 gradio可能还会要求你再去下一个文件，你可能要关掉 Windows Defender, 并且把下载目录和仓库目录加进 Windows Defender的排除项*
 
 
