@@ -1,8 +1,8 @@
 <p align="center">
-    <img src="image/sellingcall.png">
+    <img src="image/sellingcall.png"=20x30>
 </p>
 
-# ShampooSalesAgent
+# ShampooSalesAgent: A minimal LLM Sales Agent Framework for Sales Agent Deployment and Benchmark 
 A LLM-powered minimal agent that sells Shampoo (or any product with just a product information) for a living. Fluent conversation with customers on Web and will record their orders in a .csv file. 
 ## Quick Start
 ```bash
@@ -83,3 +83,13 @@ If this work is helpful, please kindly cite as:
 ## Acknowledgement
 
 This repo benefits from [gradio](https://github.com/gradio-app/gradio). Thanks for their wonderful works.
+
+## Model Short Name Table
+A few models have short names
+
+Full Name| Short Name
+-|-
+gpt-3.5-turbo|gpt
+moonshot-v1-8k|kimi
+qwen1.5-72b-chat|qwen
+Baichuan2-Turbo|baichuan
