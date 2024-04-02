@@ -66,7 +66,7 @@ Running on public URL: https://8fefa6c18e039476175.gradio.live
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 ```
 
-两个链接都能用，但只有第二个链接可以发给其他人访问，点击后打开网页与Agent进行对话如下：
+两个链接都能用，但只有第二个链接可以发给其他人访问，点击后打开网页与Agent进行对话如下（商品和地址信息纯属虚构用来测试模型计算和对话能力）：
 <img src="image/e1zh.PNG">
 <img src="image/e2zh.PNG">
 
