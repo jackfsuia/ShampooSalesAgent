@@ -20,10 +20,16 @@
    git clone https://github.com/gogogo22/ShampooSalesAgent.git
    ```
 
-2. **运行程序**：使用您选择的模型名称和API密钥启动Agent：
+2. **安装依赖包**：通过命令行执行：
+   ```
+   pip install -r requirements.txt
+   ```
+   *不用安装dashscope假如你不跑阿里的线上通义千问模型，不用安装transformer库假如你不跑Huggingface模型，不用安装openai库假如你不跑gpt3.5/4和月之暗面模型*
+3. **运行程序**：使用您选择的模型名称和API密钥启动Agent：
    ```
    python start.py 模型名 API密钥
    ```
+
 大功告成!
 
    其中：
@@ -33,7 +39,8 @@
      - 月之暗面提供免费每分钟3次请求；
      - gpt3.5/4 付费；
      - Huggingface模型免费，可直接使用Huggingface库中的模型或本地微调后的模型（请确保模型路径不出错）
-
+     - 
+*windows 10 上 gradio可能还会要求你再去下一个文件，你可能要关掉 Windows Defender, 并且把下载目录和仓库目录加进 Windows Defender的排除项*
 
 
 3. **自定义产品信息**：本Agent默认卖洗发水，如需售卖其他商品，直接修改[product_description](product_description)文件里的产品描述。
