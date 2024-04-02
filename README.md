@@ -8,7 +8,7 @@
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://github.com/gogogo22/ShampooSalesAgent/blob/master/LICENSE
 
-A LLM-powered minimal agent that sells Shampoo (or any product provided a product information) for a living. Fluent conversation with customers on Web and will record their orders in a .csv file. 
+A LLM-powered minimal agent that sells Shampoo (or any product provided a product information) for a living. Fluent conversation with customers on Web and will record their orders in a .csv [file](customer_orders.csv). 
 ## Quick Start
 ```bash
 git clone https://github.com/gogogo22/ShampooSalesAgent
