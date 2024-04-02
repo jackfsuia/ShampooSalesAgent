@@ -15,7 +15,7 @@ Run
 ```bash
 git clone https://github.com/gogogo22/ShampooSalesAgent.git
 ```
-Then install the requirements (gradio, openai, etc). dashscope is not needed if you don't use Qwen API KEY. Anyway, run
+Then install the requirements (gradio, openai, etc). *dashscope is not needed if you don't use Qwen API, openai is not needed if you don't use gpt3.5/4 API and Kimi API. Transformers is not needed if you don't use Huggingface model.* Anyway, run
 ```bash
 pip install -r requirements.txt
 ```
