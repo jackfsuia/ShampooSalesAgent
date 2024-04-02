@@ -24,7 +24,7 @@
    ```
    pip install -r requirements.txt
    ```
-   *不用安装dashscope假如你不跑阿里的线上通义千问模型，不用安装transformer库假如你不跑Huggingface模型，不用安装openai库假如你不跑gpt3.5/4和月之暗面模型*
+   *不用安装dashscope假如你不跑阿里的线上通义千问模型，不用安装transformers库假如你不跑Huggingface模型，不用安装openai库假如你不跑gpt3.5/4和月之暗面模型*
 3. **运行程序**：使用您选择的模型名称和API密钥启动Agent：
    ```
    python start.py 模型名 API密钥
