@@ -44,7 +44,7 @@ Running on public URL: https://8fefa6c18e039476175.gradio.live
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 ```
 
-Both links work. Only the second link can be shared. Click the link, you'll see the web, and have a chat
+Both links work. Only the second link can be shared to public. Click the link, you'll see the web, and have a chat
 
 <img src="image/e1.PNG">
 <img src="image/e2.PNG">
