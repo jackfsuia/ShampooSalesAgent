@@ -24,7 +24,7 @@ Let's say you're using gpt-3.5-turbo as model, the KEY you bought is sdjkSOIjkde
 ```bash
 python start.py gpt-3.5-turbo sdjkSOIjkdejs
 ```
-or for short
+or for short ([a few models have short names](#Table))
 ```bash
 python start.py gpt sdjkSOIjkdejs
 ```
@@ -84,8 +84,8 @@ If this work is helpful, please kindly cite as:
 
 This repo benefits from [gradio](https://github.com/gradio-app/gradio). Thanks for their wonderful works.
 
-## Model Short Name Table
-A few models have short names
+## Table
+A few models have short names.
 
 Full Name| Short Name
 -|-
