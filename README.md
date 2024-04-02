@@ -87,7 +87,7 @@ If this work is helpful, please kindly cite as:
 ```
 ## Acknowledgement
 
-This repo benefits from [gradio](https://github.com/gradio-app/gradio). Thanks for their wonderful works.
+This repo benefits from [gradio](https://github.com/gradio-app/gradio), and the free models I have been using: [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys), [huggingface model](https://huggingface.co/welcome). Thanks for their wonderful works. Thank [gpt3.5/4](https://platform.openai.com/docs/models/overview) for open our imagination. 
 
 ## Table
 A few models have short names.
