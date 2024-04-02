@@ -17,7 +17,7 @@ git clone https://github.com/gogogo22/ShampooSalesAgent.git
 ```
 Then install the requirements (gradio, openai, etc). dashscope is not needed if you don't use Qwen API KEY. Anyway, run
 ```bash
-pip install -r re
+pip install -r requirements.txt
 ```
 then run
 ```bash
