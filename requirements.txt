@@ -3,5 +3,5 @@ openai>=1.14.3
 requests>=2.25.1
 torch>=1.12.0
 pandas
-transformers
-dashscope #only if you use qwen model
+transformers # only if you use huggingface model
+dashscope # only if you use qwen model
