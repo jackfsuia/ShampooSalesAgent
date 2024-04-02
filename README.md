@@ -34,17 +34,18 @@ Running on public URL: https://8fefa6c18e039476175.gradio.live
 
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 ```
-Both links work. Only the second link can be shared. Click the link, you'll see the web, and have chat like this
-[img](image/e1.PNG)
-[img](image/e2.PNG)
-The console will print the order infomation out like this
+Both links work. Only the second link can be shared. Click the link, you'll see the web, and have a chat
+<img src="image/e1.PNG">
+<img src="image/e2.PNG">
+
+the order infomation will be printed out to the CLI
 ```
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 2024-04-02 13:52:01.748677 <Jack Oliver><490 2nd St, Suite 300, New York><212555-1212><2 bottles><30 USD>
 Customer order information has been written to customer_orders.csv
 ```
-Open [customer_orders.csv](customer_orders.csv), you'll see this order information
+and [customer_orders.csv](customer_orders.csv). Open this .csv file, you'll see this order information line
 ```
 2024-04-02 13:52:01.748677,Jack Oliver,"490 2nd St, Suite 300, New York",212555-1212,2 bottles,30 USD
 ```
-on it.
+has been added.
