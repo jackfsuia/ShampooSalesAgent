@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/gogogo22/ShampooSalesAgent/image/goodsell.png" width="75%" >
+    <img src="image/goodsell.png" width="75%" >
 </p>
 
 # ShampooSalesAgent: A minimal LLM Sales Agent Framework for Sales Agent Deployment and Benchmark 
