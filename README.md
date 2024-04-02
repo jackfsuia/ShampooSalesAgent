@@ -58,7 +58,7 @@ Run
 ```bash
 python order_counting.py
 ```
-you will find out.
+you will find out. If you don't mind, share your evaluation with us all:)
 
 ## Citation
 
