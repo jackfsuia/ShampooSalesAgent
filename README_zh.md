@@ -67,18 +67,18 @@ This share link expires in 72 hours. For free permanent hosting and GPU upgrades
 ```
 
 两个链接都能用，但只有第二个链接可以发给其他人访问，点击后打开网页与Agent进行对话如下：
-<img src="image/e1.PNG">
-<img src="image/e2.PNG">
+<img src="image/e1zh.PNG">
+<img src="image/e2zh.PNG">
 
 订单信息将在命令行界面（CLI）实时打印如下
 ```
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
-2024-04-02 13:52:01.748677 <Jack Oliver><490 2nd St, Suite 300, New York><212555-1212><2 bottles><30 USD>
+2024-04-02 22:39:04.497217 <李明><北京市海淀区西土城路18栋><181988282><5瓶><450元>
 Customer order information has been written to customer_orders.csv
 ```
 并且保存在了[表格](customer_orders.csv)中. 打开这个表格，就会发现新加的一行订单信息如下
 ```
-2024-04-02 13:52:01.748677,Jack Oliver,"490 2nd St, Suite 300, New York",212555-1212,2 bottles,30 USD
+2024-04-02 22:39:04.497217,李明,北京市海淀区西土城路18栋,181988282,5瓶,450元
 ```
 
 ## 模型评估——谁是销冠？
