@@ -2,7 +2,7 @@
     <img src="image/goodsell.png" width="75%" >
 </p>
 
-## ShampooSalesAgent：大模型小型销售Agent框架，面向销售Agent快速部署和基准测试
+## ShampooSalesAgent：一个大模型驱动的小型销售Agent解决方案，面向销售Agent快速部署和基准测试
 
 [![license][license-image]][license-url]
 
