@@ -75,10 +75,10 @@ Run
 ```bash
 python order_counting.py
 ```
-you will find out. By the way, if you don't mind, you can share your interesting results on this benchmark with us all :)
+you will find out. You can share your interesting results on this benchmark with us all.
 
 ## Future Work
-- Finetune the model to be more professional at selling things, and talk more natural just like human. It is important to make people feel connections with each other, even with a robot (like the movie, *her*). 99% of people are not complex reasoning machines, but almost every one of them can make us feel warm and support at some point in life :)
+- Finetune the model to be more professional at selling things, and talk more natural just like human. It is important to make people feel connections with each other, even with a robot (like the movie, *her*). 99% of people are not complex reasoning machines, but almost every one of them can make us feel warm and support at some point in life.
 - Support multimodal models. This might be simpler and soon.
   
 ## License
