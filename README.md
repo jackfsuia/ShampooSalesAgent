@@ -13,7 +13,7 @@ A LLM-powered minimal agent that sells Shampoo (or any product provided a produc
 ## Quick Start
 Run
 ```bash
-git clone https://github.com/gogogo22/ShampooSalesAgent.git
+git clone https://github.com/jackfsuia/ShampooSalesAgent.git
 ```
 Then install the requirements (gradio, openai, etc). *dashscope is not needed if you don't use Qwen API, openai is not needed if you don't use gpt3.5/4 API and Kimi API. Transformers is not needed if you don't use Huggingface model.* Anyway, run
 ```bash
