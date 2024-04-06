@@ -32,6 +32,9 @@ MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baic
 By default, this agent proactively sells Shampoo. Write your own product information to [product_description](product_description) if you want to sell something else.
 
 The order infomation (name, address, phone number, purchase quantity, etc. provided by customers)  will be printed to [customer_orders.csv](customer_orders.csv).
+
+ *Do you like this project? Give us a :star:*
+ 
 ## Examples
 Let's say you're using gpt-3.5-turbo as model, the KEY you bought is sdjkSOIjkdejs. Then you should be running
 ```bash
