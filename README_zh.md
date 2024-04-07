@@ -1,17 +1,21 @@
 <p align="center">
-    <img src="image/goodsell.png" width="75%" >
+    <img src="image/goodsell.png" width="50%" >
 </p>
+<h1 align="center">ShampooSalesAgent</h1>
 
-## ShampooSalesAgent：一个大模型驱动的小型销售Agent解决方案，面向销售Agent快速部署和基准测试
+<div align="center">
+
+<h3 align="center">
+大模型驱动的小型销售Agent解决方案，面向销售Agent快速部署和基准测试
+</h3>
 
 [![license][license-image]][license-url]
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
 [license-url]: https://github.com/gogogo22/ShampooSalesAgent/blob/master/LICENSE
 [English](README.md) | 简体中文
-
+</div>
 一个大模型驱动的小型销售Agent，专门售卖洗发水（或根据你提供的产品信息卖任意商品），能与网络上的顾客进行流畅交谈，并将他们的下的单记录在一个[表格](customer_orders.csv)中。
-
 
 ## 快速启动
 
