@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="image/goodsell.png" width="39%" >
+    <img src="image/goodsell.png" width="60%" >
 </p>
 <h1 align="center">ShampooSalesAgent</h1>
 
