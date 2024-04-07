@@ -6,7 +6,7 @@
 <div align="center">
 
 <h3 align="center">
-A minimal LLM Sales Agent Framework for Sales Agent Fast Deployment and Benchmark 
+A minimal LLM Agent Framework for Sales Agent Fast Deployment and Benchmark 
 </h3>
 
 [![license][license-image]][license-url]
