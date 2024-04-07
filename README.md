@@ -1,8 +1,14 @@
 <p align="center">
-    <img src="image/goodsell.png" width="75%" >
+    <img src="image/goodsell.png" width="50%" >
 </p>
+<h1 align="center">ShampooSalesAgent</h1>
 
-# ShampooSalesAgent: A minimal LLM Sales Agent Framework for Sales Agent Fast Deployment and Benchmark 
+<div align="center">
+
+<h3 align="center">
+A minimal LLM Sales Agent Framework for Sales Agent Fast Deployment and Benchmark 
+</h3>
+
 [![license][license-image]][license-url]
 
 [license-image]: http://img.shields.io/badge/license-MIT-blue.svg
