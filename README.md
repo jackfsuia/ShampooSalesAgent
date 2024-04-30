@@ -40,6 +40,8 @@ But if you're using [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv
 ```bash
 python start.py MODEL API_Key Secret_Key
 ```
+API_Key and Secret_Key is defined by ernie, please refer to their website.
+
 That's all!
 
 If you don't have a KEY, click the link on those model names to apply/buy. Notice: **baichuan**, **qwen** is free for some of their models, **kimi** is free for 3 requests per minute, **gpt3.5/4** and **ernie** is not free as far as I know. **Huggingface model** is free,  and it can be model downloaded from huggingface, or your local finetuned model with a huggingface-like model path.
