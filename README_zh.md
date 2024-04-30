@@ -16,7 +16,7 @@
 [license-url]: https://github.com/gogogo22/ShampooSalesAgent/blob/master/LICENSE
 [English](README.md) | 简体中文
 </div>
-一个大模型驱动的小型销售Agent，专门售卖洗发水（或根据你提供的产品信息卖任意商品），能与网络上的顾客进行流畅交谈，并将他们的下的单记录在一个[表格](customer_orders.csv)中。
+一个大模型驱动的小型销售Agent，专门售卖洗发水（或根据你提供的产品信息卖任意商品），能与网络上的顾客进行流畅交谈，并将他们的下的单记录在一个[表格](customer_orders.csv)中。支持通义千问，百川，月之暗面，文心一言4.0，huggingface模型，OpenAI的模型。
 
 ## 快速启动
 
@@ -34,17 +34,21 @@
    ```
    python start.py 模型名 API密钥
    ```
+   假如你在用[文心一言](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t)的话，应该跑下面这句
+    ```bash
+    python start.py 模型名 API密钥 Secret密钥
+    ```
 
 大功告成!
 
    其中：
-   - **模型名**：支持[gpt3.5/4](https://platform.openai.com/docs/models/overview)、[百川](https://platform.baichuan-ai.com/console/apikey)、 [通义千问](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key)、[月之暗面](https://platform.moonshot.cn/console/api-keys)、任何[Huggingface模型](https://huggingface.co/welcome)及本地微调模型（这种情况不需要输入API密钥）。
+   - **模型名**：支持[gpt3.5/4](https://platform.openai.com/docs/models/overview)、[百川](https://platform.baichuan-ai.com/console/apikey)、 [通义千问](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key)、[月之暗面](https://platform.moonshot.cn/console/api-keys)、任何[Huggingface模型](https://huggingface.co/welcome)及其本地微调模型（这种情况不需要输入API密钥）。
    - **API密钥**：非Huggingface模型需提供，可通过点击上面的相应的模型字体链接申请一个。其中
      - 百川、通义千问的部分模型免费；
      - 月之暗面提供免费每分钟3次请求；
      - gpt3.5/4 付费；
      - Huggingface模型免费，可直接使用Huggingface库中的模型或本地微调后的模型（请确保模型路径不出错）
-     
+   - **Secret密钥**：文心一言需要提供。
 *windows 10 上 gradio可能还会要求你再去下一个文件，你可能要关掉 Windows Defender, 并且把下载目录和仓库目录加进 Windows Defender的排除项*
 
 
@@ -139,3 +143,4 @@ ShampooSalesAgent遵循本仓库根目录下[LICENSE](LICENSE)文件所写的MIT
 | moonshot-v1-8k   | kimi   |
 | qwen1.5-72b-chat | qwen   |
 | Baichuan2-Turbo  | baichuan |
+| ERNIE-4.0-8K | ernie |
