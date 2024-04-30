@@ -6,13 +6,11 @@ from chat_flow.normal_flow import salesAgent
 
 class qwen_salesAgent(salesAgent):
     def __init__(self, MODEL, KEY):
-        if KEY == None:
-            print('key missing') 
-            return
+
         if MODEL == 'qwen':
             MODEL='qwen1.5-72b-chat'
-        dashscope.api_key = KEY
         super().__init__(MODEL, KEY)
+        dashscope.api_key = KEY
 
     def talk_to_seller(self, query, history):
         history += [{

@@ -5,9 +5,7 @@ from chat_flow.normal_flow import salesAgent
 
 class gpt_salesAgent(salesAgent):
     def __init__(self, MODEL, KEY):
-        if KEY == None:
-            print('key missing') 
-            return
+
         if MODEL == 'gpt':
             MODEL="gpt-3.5-turbo"
         super().__init__(MODEL, KEY)

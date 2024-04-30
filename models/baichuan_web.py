@@ -5,13 +5,12 @@ from chat_flow.normal_flow import salesAgent
 
 class baichuan_salesAgent(salesAgent):
     def __init__(self, MODEL, KEY):
-        if KEY == None:
-            print('key missing') 
-            return
-        self.URL = 'https://api.baichuan-ai.com/v1/chat/completions'
+
         if MODEL == 'baichuan':
             MODEL='Baichuan2-Turbo'
         super().__init__(MODEL, KEY)
+        
+        self.URL = 'https://api.baichuan-ai.com/v1/chat/completions'
         self.headers = {
         "Content-Type": "application/json",
         "Authorization":f"Bearer {self.KEY}"

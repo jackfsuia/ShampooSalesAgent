@@ -5,10 +5,7 @@ from chat_flow.normal_flow import salesAgent
 
 class local_salesAgent(salesAgent):
     def __init__(self, MODEL):
-        if MODEL == None:
-            print('model missing') 
-            return
-        
+        super().__init__(MODEL)
         def try_gpu(i=0):
             if torch.cuda.device_count() >= i + 1:
                 return torch.device(f'cuda:{i}')
@@ -18,7 +15,6 @@ class local_salesAgent(salesAgent):
         self.tok = AutoTokenizer.from_pretrained(MODEL,trust_remote_code=True)
         self.model = AutoModelForCausalLM.from_pretrained(MODEL, trust_remote_code=True, device_map="auto")
 
-        super().__init__(MODEL)
 
     def talk_to_seller(self, query, history):
         history += [{
