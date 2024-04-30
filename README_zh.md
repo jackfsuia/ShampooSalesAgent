@@ -49,9 +49,7 @@
      - gpt3.5/4 付费；
      - Huggingface模型免费，可直接使用Huggingface库中的模型或本地微调后的模型（请确保模型路径不出错）
    - **Secret密钥**：文心一言需要提供。
-*windows 10 上 gradio可能还会要求你再去下一个文件，你可能要关掉 Windows Defender, 并且把下载目录和仓库目录加进 Windows Defender的排除项*
-
-
+     
 3. **自定义产品信息**：本Agent默认卖洗发水，如需售卖其他商品，直接修改[product_description](product_description)文件里的产品描述。
 
 4. **查看订单**：客户提供的订单信息（姓名、地址、电话、购买数量、金额等）将记录在[表格](customer_orders.csv)里。
@@ -82,8 +80,10 @@ Running on public URL: https://8fefa6c18e039476175.gradio.live
 This share link expires in 72 hours. For free permanent hosting and GPU upgrades, run `gradio deploy` from Terminal to deploy to Spaces (https://huggingface.co/spaces)
 ```
 
+*windows 10 上 gradio可能还会要求你再去下一个文件，你可能要关掉 Windows Defender, 并且把下载目录和仓库目录加进 Windows Defender的排除项*
 
 两个链接都能用，但只有第二个链接可以发给其他人访问，点击后打开网页与Agent进行对话如下（商品和地址信息纯属虚构用来测试模型计算和对话能力）：
+
 <img src="image/e1zh.PNG">
 <img src="image/e2zh.PNG">
 
