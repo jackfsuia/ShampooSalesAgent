@@ -19,7 +19,7 @@ English | [简体中文](README_zh.md)
 
 A LLM-powered minimal agent that sells Shampoo (or any product provided a product information) for a living. Fluent conversation with customers on Web and will record their orders in a local .csv [file](customer_orders.csv). 
 
-Support all models, including openai models, huggingface models, baichuan(百川), qwen(通义千问), moonshot(月之暗面). Very friendly for beginners, researchers and interested businessman who want to try things out quick.
+Support all models, including openai models, huggingface models, baichuan(百川), qwen(通义千问), moonshot(月之暗面), ernie(文心一言). Very friendly for beginners, researchers and interested businessman who want to try things out quick.
 
 ## Quick Start
 Run
@@ -34,9 +34,15 @@ then run
 ```bash
 python start.py MODEL YOUR_KEY
 ```
+MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys), [huggingface model](https://huggingface.co/welcome). YOUR_KEY is your model API KEY (not needed for Huggingface model).
+
+But if you're using [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t), you should instead run 
+```bash
+python start.py MODEL API_Key Secret_Key
+```
 That's all!
 
-MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys), [huggingface model](https://huggingface.co/welcome), [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t). YOUR_KEY is your model API KEY (not needed for Huggingface model). If you don't have a KEY, click the link on those words to apply/buy. Notice: **baichuan**, **qwen** is free for some of their models, **kimi** is free for 3 requests per minute, **gpt3.5/4** and **ernie** is not free as far as I know. **Huggingface model** is free,  and it can be model downloaded from huggingface, or your local finetuned model with a huggingface-like model path.
+If you don't have a KEY, click the link on those model names to apply/buy. Notice: **baichuan**, **qwen** is free for some of their models, **kimi** is free for 3 requests per minute, **gpt3.5/4** and **ernie** is not free as far as I know. **Huggingface model** is free,  and it can be model downloaded from huggingface, or your local finetuned model with a huggingface-like model path.
 
 By default, this agent proactively sells Shampoo. Write your own product information to [product_description](product_description) if you want to sell something else. The order infomation (name, address, phone number, purchase quantity, etc. provided by customers)  will be printed to [customer_orders.csv](customer_orders.csv).
 
