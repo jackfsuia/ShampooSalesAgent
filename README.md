@@ -36,7 +36,7 @@ python start.py MODEL YOUR_KEY
 ```
 That's all!
 
-MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys), [huggingface model](https://huggingface.co/welcome). YOUR_KEY is your model API KEY (not needed for Huggingface model). If you don't have a KEY, click the link on those words to apply/buy. Notice: **baichuan**, **qwen** is free for some of their models, **kimi** is free for 3 requests per minute, **gpt3.5/4** is not free as far as I know. **Huggingface model** is free,  and it can be model downloaded from huggingface, or your local finetuned model with a huggingface-like model path.
+MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys), [huggingface model](https://huggingface.co/welcome), [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t). YOUR_KEY is your model API KEY (not needed for Huggingface model). If you don't have a KEY, click the link on those words to apply/buy. Notice: **baichuan**, **qwen** is free for some of their models, **kimi** is free for 3 requests per minute, **gpt3.5/4** and **ernie** is not free as far as I know. **Huggingface model** is free,  and it can be model downloaded from huggingface, or your local finetuned model with a huggingface-like model path.
 
 By default, this agent proactively sells Shampoo. Write your own product information to [product_description](product_description) if you want to sell something else. The order infomation (name, address, phone number, purchase quantity, etc. provided by customers)  will be printed to [customer_orders.csv](customer_orders.csv).
 
@@ -122,3 +122,4 @@ gpt-3.5-turbo|gpt
 moonshot-v1-8k|kimi
 qwen1.5-72b-chat|qwen
 Baichuan2-Turbo|baichuan
+ERNIE-4.0-8K|ernie
