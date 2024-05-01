@@ -1,7 +1,6 @@
 # MODEL name supports openai, kimi, baichuan, qwen, Hugggingface models. Hugggingface models don't need a KEY.
 import sys
 import gradio as gr
-from models import baichuan_web, kimi_web, qwen_web, gpt_web,local_model_web
 
 if __name__ == '__main__':
     if len(sys.argv) <= 1:
@@ -30,8 +29,8 @@ if __name__ == '__main__':
             selling_talk = ernie_web.ernie_salesAgent(MODEL, API_Key=sys.argv[2], Secret_Key=sys.argv[3]).closuer_selling_talk()
             print(f'You are using {MODEL}\'s API.(你在调用{MODEL}的API。)')
         elif len(sys.argv) == 2:   
-            from models import local_model_web
-            selling_talk = local_model_web.local_salesAgent(MODEL).closuer_selling_talk()
+            from models import hf_model_web
+            selling_talk = hf_model_web.huggingface_salesAgent(MODEL).closuer_selling_talk()
             print(f'You are using huggingface model {MODEL}.(你在用huggingface模型{MODEL}。)')
         else:
             raise Exception("No such model or too many arguments.(此模型不存在或者参数过多。)")

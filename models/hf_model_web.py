@@ -3,7 +3,7 @@ from threading import Thread
 import torch
 from chat_flow.normal_flow import salesAgent
 
-class local_salesAgent(salesAgent):
+class huggingface_salesAgent(salesAgent):
     def __init__(self, MODEL):
         super().__init__(MODEL)
         def try_gpu(i=0):

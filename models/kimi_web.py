@@ -9,7 +9,7 @@ class kimi_salesAgent(salesAgent):
             MODEL='moonshot-v1-8k'
         super().__init__(MODEL, KEY)
         self.URL = 'https://api.moonshot.cn/v1'
-        self.client = OpenAI(KEY, self.URL)
+        self.client = OpenAI(api_key =self.KEY, base_url =self.URL)
 
     def talk_to_seller(self, query, history):
         history += [{
