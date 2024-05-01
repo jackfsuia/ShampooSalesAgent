@@ -22,7 +22,7 @@
 
 1. **克隆项目**：通过命令行执行：
    ```
-   git clone https://github.com/jackfsuia/ShampooSalesAgent.git
+   git clone https://github.com/jackfsuia/ShampooSalesAgent.git && cd ShampooSalesAgent
    ```
 
 2. **安装依赖包**：通过命令行执行：
