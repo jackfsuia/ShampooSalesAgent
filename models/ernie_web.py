@@ -17,9 +17,6 @@ class ernie_salesAgent(salesAgent):
 
     @property
     def get_access_token(self):
-        """
-        使用 API Key，Secret Key 获取access_token，替换下列示例中的应用API Key、应用Secret Key
-        """
             
         url = f"https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={self.API_Key}&client_secret={self.Secret_Key}"
         
