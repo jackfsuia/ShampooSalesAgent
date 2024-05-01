@@ -32,7 +32,7 @@ if __name__ == '__main__':
         elif len(sys.argv) == 2:   
             from models import local_model_web
             selling_talk = local_model_web.local_salesAgent(MODEL).closuer_selling_talk()
-            print(f'You are using your local model {MODEL}.(你在用本地模型{MODEL}。)')
+            print(f'You are using huggingface model {MODEL}.(你在用huggingface模型{MODEL}。)')
         else:
             raise Exception("No such model or too many arguments.(此模型不存在或者参数过多。)")
 
