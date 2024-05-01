@@ -34,7 +34,7 @@ if __name__ == '__main__':
             selling_talk = local_model_web.local_salesAgent(MODEL).closuer_selling_talk()
             print(f'You are using your local model {MODEL}.(你在用本地模型{MODEL}。)')
         else:
-            raise Exception("No such model.(此模型不存在。)")
+            raise Exception("No such model or too many arguments.(此模型不存在或者参数过多。)")
 
         print('Please go to one of the following  links to chat, and the second link can be shared. If the link crash during chat, please keep clicking the Retry button located at the bottom of the chat page. if you need it to speak English, you can just say \'speak english\' to it.(请点击以下任一网址进入聊天，第二个网址可以分享给其他人。聊天的时候崩溃请点聊天框下面的Retry按钮)')
         gr.ChatInterface(selling_talk).launch(share=True)
