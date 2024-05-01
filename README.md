@@ -24,7 +24,7 @@ Support all models, including openai models, huggingface models, baichuan(百川
 ## Quick Start
 Run
 ```bash
-git clone https://github.com/jackfsuia/ShampooSalesAgent.git
+git clone https://github.com/jackfsuia/ShampooSalesAgent.git && cd ShampooSalesAgent
 ```
 Then install the requirements (gradio, openai, etc). *dashscope is not needed if you don't use Qwen API, openai is not needed if you don't use gpt3.5/4 API and Kimi API. Transformers is not needed if you don't use Huggingface model.* Anyway, run
 ```bash
