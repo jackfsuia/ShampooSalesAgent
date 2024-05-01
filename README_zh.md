@@ -47,7 +47,6 @@
      - 百川、通义千问的部分模型免费；
      - 月之暗面提供免费每分钟3次请求；
      - gpt3.5/4 付费；
-     - Huggingface模型免费，可直接使用Huggingface库中的模型或本地微调后的模型（请确保模型路径不出错）
    - **Secret密钥**：文心一言需要提供。
      
 3. **自定义产品信息**：本Agent默认卖洗发水，如需售卖其他商品，直接修改[product_description](product_description)文件里的产品描述。
