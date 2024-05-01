@@ -40,7 +40,7 @@ But if you're using [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv
 ```bash
 python start.py MODEL API_Key Secret_Key
 ```
-API_Key and Secret_Key is defined by ernie, please refer to their website.
+API_Key and Secret_Key are defined by ernie, please refer to their website.
 
 That's all!
 
