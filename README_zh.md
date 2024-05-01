@@ -49,9 +49,9 @@
      - gpt3.5/4 付费；
    - **Secret密钥**：文心一言需要提供。
      
-3. **自定义产品信息**：本Agent默认卖洗发水，如需售卖其他商品，直接修改[product_description](product_description)文件里的产品描述。
+4. **自定义产品信息**：本Agent默认卖洗发水，如需售卖其他商品，直接修改[product_description](product_description)文件里的产品描述。
 
-4. **查看订单**：客户提供的订单信息（姓名、地址、电话、购买数量、金额等）将记录在[表格](customer_orders.csv)里。
+5. **查看订单**：客户提供的订单信息（姓名、地址、电话、购买数量、金额等）将记录在[表格](customer_orders.csv)里。
 
 ## 示例
 
