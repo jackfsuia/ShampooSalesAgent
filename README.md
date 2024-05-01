@@ -34,7 +34,7 @@ then run
 ```bash
 python start.py MODEL YOUR_KEY
 ```
-MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys). YOUR_KEY is your model API KEY (not needed for Huggingface model).
+MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys). YOUR_KEY is your model API KEY.
 
 But if you're using [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t), you should instead run 
 ```bash
