@@ -1,4 +1,4 @@
-# MODEL name supports openai, kimi, baichuan, qwen, Hugggingface models. Hugggingface models don't require a real KEY.
+# MODEL name supports openai, kimi, baichuan, qwen, Hugggingface models. Hugggingface models don't need a KEY.
 import sys
 import gradio as gr
 from models import baichuan_web, kimi_web, qwen_web, gpt_web,local_model_web
