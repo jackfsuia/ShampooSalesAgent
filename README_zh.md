@@ -39,7 +39,7 @@
     python start.py 模型名 API密钥 Secret密钥
     ```
 
-大功告成!
+大功告成! 假如你想用命令行作为聊天界面， 用`start_CLI.py`替换上面的`start.py`即可。
 
    其中：
    - **模型名**：支持[gpt3.5/4](https://platform.openai.com/docs/models/overview)、[百川](https://platform.baichuan-ai.com/console/apikey)、 [通义千问](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key)、[月之暗面](https://platform.moonshot.cn/console/api-keys)、[文心一言](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t)、任何[Huggingface模型](https://huggingface.co/welcome)及其本地微调模型（Huggingface模型不需要输入密钥）。
