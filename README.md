@@ -26,15 +26,12 @@ Run
 ```bash
 git clone https://github.com/jackfsuia/ShampooSalesAgent.git && cd ShampooSalesAgent
 ```
-Then install the requirements (gradio, openai, etc). *dashscope is not needed if you don't use Qwen API, openai is not needed if you don't use gpt3.5/4 API and Kimi API. Transformers is not needed if you don't use Huggingface model.* Anyway, run
-```bash
-pip install -r requirements.txt
-```
-then run
+After installing the requirements (gradio, openai, etc). Run
+
 ```bash
 python start.py MODEL YOUR_KEY
 ```
-MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys). YOUR_KEY is your model API KEY.
+MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [claude](https://www.anthropic.com/api), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys). YOUR_KEY is your model API KEY.
 
 But if you're using [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t), you should instead run 
 ```bash
@@ -133,6 +130,7 @@ A few models have short names.
 Full Name| Short Name
 -|-
 gpt-3.5-turbo|gpt
+claude-3-opus-20240229|claude
 moonshot-v1-8k|kimi
 qwen1.5-72b-chat|qwen
 Baichuan2-Turbo|baichuan
