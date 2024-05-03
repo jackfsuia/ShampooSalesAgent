@@ -22,9 +22,12 @@ def get_selling_talk(argv):
             elif MODEL.startswith("claude") or MODEL.startswith("anthropic"):
                 from models import anthropic_web
                 return anthropic_web.anthropic_salesAgent(MODEL, KEY).closuer_selling_talk()
-            elif MODEL.startswith("gemini") :
+            elif MODEL.startswith("gemini"):
                 from models import gemini_web
-                return gemini_web.gemini_salesAgent(MODEL, KEY).closuer_selling_talk()    
+                return gemini_web.gemini_salesAgent(MODEL, KEY).closuer_selling_talk()
+            elif MODEL.startswith("glm") or MODEL.startswith("zhipu") or MODEL.startswith("GLM"):
+                from models import zhipu_web
+                return zhipu_web.zhipu_salesAgent(MODEL, KEY).closuer_selling_talk()
             elif MODEL.startswith("ernie"):
                 raise Exception("ernie needs API Key and Secret Key. You're missing one of them.(文心一言需要API Key 和 Secret Key, 您少输入了一个。)")
         elif len(argv) == 4 and (MODEL.startswith("ernie") or MODEL.startswith("ERNIE")):

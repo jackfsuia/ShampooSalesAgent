@@ -37,7 +37,7 @@
 大功告成!！假如你想用命令行作为聊天界面， 用`start_CLI.py`替换上面的`start.py`即可。
 
    其中：
-   - **模型名**：支持[gpt3.5/4](https://platform.openai.com/docs/models/overview)、[百川](https://platform.baichuan-ai.com/console/apikey)、 [通义千问](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key)、[月之暗面](https://platform.moonshot.cn/console/api-keys)、[文心一言](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t)、[claude](https://www.anthropic.com/api)、[gemini](https://ai.google.dev/gemini-api/docs/api-key)、任何[Huggingface模型](https://huggingface.co/welcome)及其本地微调模型（Huggingface模型不需要输入密钥）。
+   - **模型名**：支持[gpt3.5/4](https://platform.openai.com/docs/models/overview)、[百川](https://platform.baichuan-ai.com/console/apikey)、 [通义千问](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key)、[月之暗面](https://platform.moonshot.cn/console/api-keys)、[文心一言](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t)、[智谱 GLM](https://open.bigmodel.cn/usercenter/apikeys)、[claude](https://www.anthropic.com/api)、[gemini](https://ai.google.dev/gemini-api/docs/api-key)、任何[Huggingface模型](https://huggingface.co/welcome)及其本地微调模型（Huggingface模型不需要输入密钥）。
    - **API密钥**：非Huggingface模型需提供，可通过点击上面的相应的模型字体链接申请一个。其中
      - 百川、通义千问的部分模型免费；
      - 月之暗面提供免费每分钟3次请求；
@@ -134,6 +134,7 @@ ShampooSalesAgent遵循本仓库根目录下[LICENSE](LICENSE)文件所写的MIT
 | 完整名称          | 简称 |
 |------------------|--------|
 | gpt-3.5-turbo    | gpt    |
+| glm-4 | glm |
 | moonshot-v1-8k   | kimi   |
 | qwen1.5-72b-chat | qwen   |
 | Baichuan2-Turbo  | baichuan |
