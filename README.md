@@ -31,7 +31,7 @@ After installing the requirements (gradio, openai, etc). Run
 ```bash
 python start.py MODEL YOUR_KEY
 ```
-MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [claude](https://www.anthropic.com/api), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys). YOUR_KEY is your model API KEY.
+MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [claude](https://www.anthropic.com/api), [gemini](https://ai.google.dev/gemini-api/docs/api-key), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys).YOUR_KEY is your model API KEY. If you don't have a KEY, click the link on those model names to apply/buy.
 
 But if you're using [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t), you should instead run 
 ```bash
@@ -43,11 +43,9 @@ and if you're using [huggingface model](https://huggingface.co/welcome), just ru
 ```bash
 python start.py MODEL
 ```
-That's all!
+That's all!  
 
 If you want to use CLI instead of web as interface, just use `start_CLI.py` instead of `start.py`.
-
-If you don't have a KEY, click the link on those model names to apply/buy. Notice: **baichuan**, **qwen** is free for some of their models, **kimi** is free for 3 requests per minute, **gpt3.5/4** and **ernie** is not free as far as I know. **Huggingface model** is free,  and it can be model downloaded from huggingface, or your local finetuned model with a huggingface-like model path.
 
 By default, this agent proactively sells Shampoo. Write your own product information to [product_description](product_description) if you want to sell something else. The order infomation (name, address, phone number, purchase quantity, etc. provided by customers)  will be printed to [customer_orders.csv](customer_orders.csv).
 
@@ -130,6 +128,7 @@ A few models have short names.
 Full Name| Short Name
 -|-
 gpt-3.5-turbo|gpt
+gemini-pro|gemini
 claude-3-opus-20240229|claude
 moonshot-v1-8k|kimi
 qwen1.5-72b-chat|qwen
