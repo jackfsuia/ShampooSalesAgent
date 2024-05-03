@@ -31,7 +31,7 @@ After installing the requirements (gradio, openai, etc). Run
 ```bash
 python start.py MODEL YOUR_KEY
 ```
-MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [claude](https://www.anthropic.com/api), [gemini](https://ai.google.dev/gemini-api/docs/api-key), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys).YOUR_KEY is your model API KEY. If you don't have a KEY, click the link on those model names to apply/buy.
+MODEL can be [gpt3.5/4](https://platform.openai.com/docs/models/overview), [claude](https://www.anthropic.com/api), [gemini](https://ai.google.dev/gemini-api/docs/api-key), [baichuan](https://platform.baichuan-ai.com/console/apikey), [qwen](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key), [kimi](https://platform.moonshot.cn/console/api-keys). YOUR_KEY is your model API KEY. If you don't have a KEY, click the link on those model names to apply/buy.
 
 But if you're using [ernie](https://cloud.baidu.com/doc/WENXINWORKSHOP/s/clntwmv7t), you should instead run 
 ```bash
