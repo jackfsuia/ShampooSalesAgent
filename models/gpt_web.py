@@ -29,7 +29,7 @@ class gpt_salesAgent(salesAgent):
 
     
     def correct_response(self,response):
-        content = response.choices[0].message.content
+        content = response.choices[0].delta.content
         return content
     
   
