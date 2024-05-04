@@ -40,7 +40,8 @@ class salesAgent:
     def closuer_selling_talk(self):
 
         def selling_talk(message, history):
-            
+            # this is the interface to Gradio chat window
+            ## history is in this form:[(user_content1,assistant_content1),(user_content2,assistant_content2),(user_content2,assistant_content2)...]
             local_history = [
             {"role": "system", "content": "你是一个人工智能助手，你更擅长中文和英文的对话。你会为用户提供安全，有帮助，准确的回答。同时，你会拒绝一切涉及恐怖主义，种族歧视，黄色暴力等问题的回答。"},
             {"role": "user", "content":self.mission_prompt},
