@@ -47,7 +47,7 @@ That's all!
 
 If you want to use CLI instead of web as interface, just use `start_CLI.py` instead of `start.py`.
 
-By default, this agent proactively sells Shampoo. Write your own product information to [product_description](product_description) if you want to sell something else. The order infomation (name, address, phone number, purchase quantity, etc. provided by customers)  will be printed to [customer_orders.csv](customer_orders.csv). The mission prompt is in [normal_flow.py](chat_flow/normal_flow.py) if you want to change it.
+By default, this agent proactively sells Shampoo. Write your own product information to [product_description](product_description) if you want to sell something else. The order infomation (name, address, phone number, purchase quantity, etc. provided by customers)  will be printed to [customer_orders.csv](customer_orders.csv). The mission prompt is in [normal_flow.py](chat_flow/normal_flow.py) in case you want to change it.
 
 ## Examples
 Let's say you're using gpt-3.5-turbo as model, the KEY you bought is sdjkSOIjkdejs. Then you should be running
