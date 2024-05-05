@@ -49,6 +49,7 @@
 
 5. **查看订单**：客户提供的订单信息（姓名、地址、电话、购买数量、金额等）将记录在[表格](customer_orders.csv)里。
 
+6. **自定义提示词**: 任务提示词在[normal_flow.py](chat_flow/normal_flow.py)。
 ## 示例
 
 以使用百川的 `Baichuan2-Turbo` 模型为例，假设你的API密钥是 `sdjkSOIjkdejs`，则运行：
