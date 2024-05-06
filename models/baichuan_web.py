@@ -31,16 +31,12 @@ class baichuan_salesAgent(salesAgent):
         }
                             
         response = requests.post(self.URL, headers=self.headers, json=data, stream=True, timeout=60) 
-
-        return response.iter_lines()
+        for r in response.iter_lines():
+            pattern = r'"content":"([^"]*)"'
+            match = re.search(pattern, r.decode('utf-8'))
+            if match:
+                yield match.group(1)
 
     
-    def correct_response(self,response):
-
-        pattern = r'"content":"([^"]*)"'
-        match = re.search(pattern, response.decode('utf-8'))
-        if match:
-            return match.group(1)
-        return None
-
+    
   

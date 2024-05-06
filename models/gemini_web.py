@@ -15,10 +15,10 @@ class gemini_salesAgent(salesAgent):
     def talk_to_seller(self, query, _):
 
         response = self.chat.send_message(query, stream=True)
-
-        return response
-
-    def correct_response(self,response):
         
-        return response.text
+        for r in response:
+            yield r.text  
+        
+      
+
 

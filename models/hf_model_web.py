@@ -33,12 +33,12 @@ class huggingface_salesAgent(salesAgent):
         generation_kwargs = {'input_ids': input_ids, "streamer":streamer, "max_new_tokens":500}
         thread = Thread(target=self.model.generate, kwargs=generation_kwargs)
         thread.start()
-
-        return streamer
-    
-    def correct_response(self, response):
         
-        return response
+        for r in streamer:
+            yield r
+        
+    
+
 
             
 

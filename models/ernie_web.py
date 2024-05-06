@@ -42,17 +42,17 @@ class ernie_salesAgent(salesAgent):
            
         response = requests.request("POST", self.URL, headers=self.headers, data=data, stream=True)
 
-        return response.iter_lines()
+        for r in response.iter_lines():
+
+            response_str=r.decode('utf-8')
+            pattern = r'"result":"([^"]*)"'
+            match = re.search(pattern, response_str)
+            if match:
+                yield match.group(1)
+            pattern = r'"error_msg":"([^"]*)"'
+            match = re.search(pattern, response_str)
+            if match:
+                yield match.group(1)
 
     
-    def correct_response(self,response):
-        response_str=response.decode('utf-8')
-        pattern = r'"result":"([^"]*)"'
-        match = re.search(pattern, response_str)
-        if match:
-            return match.group(1)
-        pattern = r'"error_msg":"([^"]*)"'
-        match = re.search(pattern, response_str)
-        if match:
-            return match.group(1)
-        return None
+  

@@ -21,10 +21,7 @@ class zhipu_salesAgent(salesAgent):
             messages=history,
             stream=True,
         )
-                            
-        return response
 
-    
-    def correct_response(self,response):
-        content = response.choices[0].delta.content
-        return content
+        for r in response:
+            yield r.choices[0].delta.content
+                    

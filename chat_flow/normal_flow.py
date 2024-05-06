@@ -55,10 +55,9 @@ class salesAgent:
             seller_response = self.talk_to_seller(customer_text, local_history)
 
             collected_messages = ""
-            for response in seller_response:
-                response_text = self.correct_response(response)
-                if response_text:
-                    collected_messages += response_text
+            for response_chunk in seller_response:
+                if response_chunk:
+                    collected_messages += response_chunk
                     yield collected_messages
             
             print_orders.print_order(collected_messages)

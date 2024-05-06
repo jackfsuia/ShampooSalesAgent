@@ -27,12 +27,8 @@ class qwen_salesAgent(salesAgent):
             output_in_full=False  # get streaming output incrementally
         )
 
-        return response  
-    
-    def correct_response(self,response):
-        if response.status_code == HTTPStatus.OK:
-            return response.output.choices[0]['message']['content']
-        return None
+        for r in response:
+            yield r.output.choices[0]['message']['content']
 
     
   

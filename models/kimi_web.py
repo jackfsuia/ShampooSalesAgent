@@ -23,12 +23,9 @@ class kimi_salesAgent(salesAgent):
         temperature=0.3,
         stream=True
         )
+        
+        for r in response:
+            yield r.choices[0].delta.content
 
-        return response
-
-    
-    def correct_response(self,response):
-        content = response.choices[0].delta.content
-        return content
 
     

@@ -25,9 +25,8 @@ class anthropic_salesAgent(salesAgent):
             messages=history,
             model=self.MODEL,
         ) 
-        return stream.text_stream
 
-    def correct_response(self,response):
-        
-        return response
+        for r in stream.text_stream:
+            yield r
+
 

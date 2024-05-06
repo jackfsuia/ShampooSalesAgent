@@ -24,12 +24,11 @@ class gpt_salesAgent(salesAgent):
         temperature=0.3,
         stream=True
         )
-                            
-        return response
+
+        for r in response:
+            yield r.choices[0].delta.content           
+        
 
     
-    def correct_response(self,response):
-        content = response.choices[0].delta.content
-        return content
-    
+
   
