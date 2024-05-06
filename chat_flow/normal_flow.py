@@ -32,10 +32,6 @@ class salesAgent:
     
     def talk_to_seller(self, query, history):
         return None
-    
-    def correct_response(self, response):
-        return None
-
 
     def closuer_selling_talk(self):
 
