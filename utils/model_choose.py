@@ -19,6 +19,9 @@ def get_selling_talk(argv):
             elif MODEL.startswith("gpt"):
                 from models import gpt_web
                 return gpt_web.gpt_salesAgent(MODEL, KEY).closuer_selling_talk()
+            elif MODEL.startswith("deepseek"):
+                from models import deepseek_web
+                return deepseek_web.deepseek_salesAgent(MODEL, KEY).closuer_selling_talk()
             elif MODEL.startswith("claude") or MODEL.startswith("anthropic"):
                 from models import anthropic_web
                 return anthropic_web.anthropic_salesAgent(MODEL, KEY).closuer_selling_talk()
