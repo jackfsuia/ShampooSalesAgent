@@ -39,7 +39,7 @@ def get_selling_talk(argv):
             return ernie_web.ernie_salesAgent(MODEL, API_Key=argv[2], Secret_Key=argv[3]).closuer_selling_talk()
         elif len(argv) == 2:   
             print(f'You are using huggingface model {MODEL}.(你在用huggingface模型{MODEL}。)')
-            from models import hf_model_web
-            return hf_model_web.huggingface_salesAgent(MODEL).closuer_selling_talk()
+            from models import hf_model
+            return hf_model.huggingface_salesAgent(MODEL).closuer_selling_talk()
         else:
             raise Exception("No such model or too many arguments.(此模型不存在或者参数过多。)")
