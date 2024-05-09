@@ -143,4 +143,4 @@ ShampooSalesAgent遵循本仓库根目录下[LICENSE](LICENSE)文件所写的MIT
 | ERNIE-4.0-8K | ernie |
 | claude-3-opus-20240229 | claude | 
 | gemini-pro | gemini |
-|deepseek|deepseek-chat|
+|deepseek-chat|deepseek
