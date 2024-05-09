@@ -135,4 +135,4 @@ qwen1.5-72b-chat|qwen
 Baichuan2-Turbo|baichuan
 ERNIE-4.0-8K|ernie
 glm-4|glm
-deepseek|deepseek-chat
+deepseek-chat|deepseek
