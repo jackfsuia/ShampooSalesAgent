@@ -17,11 +17,11 @@ A minimal LLM Agent Framework for Sales Agent Fast Deployment and Benchmark
 English | [简体中文](README_zh.md)
 </div>
 
-A LLM-powered minimal agent that sells Shampoo for a living. Fluent conversation with customers on Web and will record their orders in a local .csv [file](customer_orders.csv). 
+- A LLM-powered **minimal** agent that sells Shampoo for a living. Fluent conversation with customers on Web and will record their orders in a local .csv [file](customer_orders.csv). 
 
-Support OpenAI models, HuggingFace models, Claude, Gemini, Baichuan, Qwen, Moonshot, Ernie, Glm, Deepseek.
+- Support OpenAI models, HuggingFace models, Claude, Gemini, Baichuan, Qwen, Moonshot, Ernie, Glm, Deepseek.
 
-Very friendly for beginners, researchers and businessman who want to try things out quick.
+- Very friendly for beginners, researchers and businessman who want to try things out quick.
 
 ## Quick Start
 Run
