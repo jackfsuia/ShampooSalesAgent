@@ -6,7 +6,7 @@
 <div align="center">
 
 <h3 align="center">
-大模型驱动的小型销售Agent解决方案，面向销售Agent快速部署和基准测试
+大模型驱动的微型销售Agent解决方案，面向销售Agent快速部署和基准测试
 </h3>
 
 [![license][license-image]][license-url]
