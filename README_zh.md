@@ -17,7 +17,9 @@
 [English](README.md) | 简体中文
 </div>
 
-一个大模型驱动的微型销售Agent，专门售卖洗发水（或根据你提供的产品信息卖任意商品），能与网络上的顾客进行流畅交谈，并将他们的下的单记录在一个[表格](customer_orders.csv)中。支持通义千问，百川，月之暗面kimi，文心一言4.0，智谱GLM，深度求索deepseek，huggingface模型，OpenAI的模型, claude模型, gemini模型。
+一个大模型驱动的微型销售Agent，专门售卖洗发水，能与网络上的顾客进行流畅交谈，并将他们的下的单记录在一个[表格](customer_orders.csv)中。
+
+支持用HuggingFace模型，通义千问，百川，月之暗面kimi，文心一言4.0，智谱GLM，深度求索deepseek，OpenAI的模型, claude模型, gemini模型。
 
 ## 快速启动
 
