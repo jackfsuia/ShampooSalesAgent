@@ -44,16 +44,13 @@ class ernie_salesAgent(salesAgent):
         response = requests.request("POST", self.URL, headers=self.headers, data=data, stream=True)
 
         for r in response.iter_lines():
-
             response_str=r.decode('utf-8')
-            pattern = r'"result":"([^"]*)"'
-            match = re.search(pattern, response_str)
-            if match:
-                yield match.group(1)
-            pattern = r'"error_msg":"([^"]*)"'
-            match = re.search(pattern, response_str)
-            if match:
-                yield match.group(1)
+            result=""
+            try:
+                result = json.loads(response_str[6:])["result"]
+            except:
+                result = response_str
+            yield result
 
     
   
