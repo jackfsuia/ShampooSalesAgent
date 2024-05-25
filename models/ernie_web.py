@@ -30,6 +30,7 @@ class ernie_salesAgent(salesAgent):
         return response.json().get("access_token")
     
     def talk_to_seller(self, query, history):
+        history=history[1:]
         history += [{
             "role": "user", 
             "content": query
