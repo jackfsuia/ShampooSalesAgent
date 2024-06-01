@@ -30,6 +30,7 @@ class ernie_salesAgent(salesAgent):
         return response.json().get("access_token")
     
     def talk_to_seller(self, query, history):
+        #百度不接受system prompt
         history=history[1:]
         history += [{
             "role": "user", 
