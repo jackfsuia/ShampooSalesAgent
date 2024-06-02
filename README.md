@@ -22,7 +22,8 @@ English | [简体中文](README_zh.md)
 - Support OpenAI models, HuggingFace models, Claude, Gemini, Baichuan, Qwen, Moonshot, Ernie, Glm, Deepseek.
 
 - Very friendly for beginners, researchers and businessman who want to try things out quick.
-
+## Updates
+- An proactive, experimental version is [Proactive-Sales-Agent](https://github.com/jackfsuia/Proactive-Sales-Agent).
 ## Quick Start
 Run
 ```bash
