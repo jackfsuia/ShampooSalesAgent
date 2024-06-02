@@ -20,7 +20,8 @@
 一个大模型驱动的微型销售Agent，专门售卖洗发水，能与网络上的顾客进行流畅交谈，并将他们的下的单记录在一个[表格](customer_orders.csv)中。
 
 支持HuggingFace模型，通义千问，百川，月之暗面kimi，文心一言4.0，智谱GLM，深度求索deepseek，OpenAI的模型, claude模型, gemini模型。
-
+## 更新
+一个更先进、实验性的项目在[主动型销售代理](https://github.com/jackfsuia/Proactive-Sales-Agent?tab=readme-ov-file)
 ## 快速启动
 
 1. **克隆项目**：通过命令行执行：
