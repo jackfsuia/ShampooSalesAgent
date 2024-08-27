@@ -1,6 +1,6 @@
 # ShampooSalesAgent
 
-#### A minimal LLM Agent Framework for Sales Agent Fast Deployment and Benchmark 
+### A minimal LLM Agent Framework for Sales Agent Fast Deployment and Benchmark 
 
 [![license][license-image]][license-url]
 ![GitHub Release](https://img.shields.io/github/v/release/jackfsuia/ShampooSalesAgent)
