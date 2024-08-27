@@ -15,7 +15,7 @@ English | [简体中文](README_zh.md)
 - Support OpenAI models, HuggingFace models, Claude, Gemini, Baichuan, Qwen, Moonshot, Ernie, Glm, Deepseek.
 
 - Very friendly for beginners, researchers and businessman who want to try things out quick.
-  
+ #### Demo:
 <img src="image/e1.PNG">
 <img src="image/e2.PNG">
 
