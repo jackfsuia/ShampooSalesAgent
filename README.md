@@ -1,13 +1,6 @@
-<p align="center">
-    <img src="image/goodsell.png" width="50%" >
-</p>
-<h1 align="center">ShampooSalesAgent</h1>
+# ShampooSalesAgent
 
-<div align="center">
-
-<h3 align="center">
-A minimal LLM Agent Framework for Sales Agent Fast Deployment and Benchmark 
-</h3>
+#### A minimal LLM Agent Framework for Sales Agent Fast Deployment and Benchmark 
 
 [![license][license-image]][license-url]
 ![GitHub Release](https://img.shields.io/github/v/release/jackfsuia/ShampooSalesAgent)
@@ -22,6 +15,10 @@ English | [简体中文](README_zh.md)
 - Support OpenAI models, HuggingFace models, Claude, Gemini, Baichuan, Qwen, Moonshot, Ernie, Glm, Deepseek.
 
 - Very friendly for beginners, researchers and businessman who want to try things out quick.
+  
+<img src="image/e1.PNG">
+<img src="image/e2.PNG">
+
 ## Updates
 - An proactive, experimental version is [Proactive-Sales-Agent](https://github.com/jackfsuia/Proactive-Sales-Agent).
 ## Quick Start
