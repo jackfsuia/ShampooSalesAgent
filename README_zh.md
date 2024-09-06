@@ -16,8 +16,8 @@
 支持HuggingFace模型，通义千问，百川，月之暗面kimi，文心一言4.0，智谱GLM，深度求索deepseek，OpenAI的模型, claude模型, gemini模型。
 
 #### 项目截图：
-<img src="image/e1.PNG">
-<img src="image/e2.PNG">
+<img src="image/e1zh.PNG">
+<img src="image/e2zh.PNG">
 
 ## 更新
 一个更先进、实验性的项目在[主动型销售代理](https://github.com/jackfsuia/Proactive-Sales-Agent?tab=readme-ov-file)
